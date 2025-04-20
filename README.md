@@ -1,4 +1,5 @@
-## Library Sponsored By
+🍴
+<!-- ## Library Sponsored By
 
 This library is sponsored by [Entity Framework Extensions](https://entityframework-extensions.net/)
 
@@ -9,6 +10,9 @@ This library is sponsored by [Entity Framework Extensions](https://entityframewo
 </a>
 
 ---
+-->
+
+Lithe HTML Pack is forked form HAP.  To start with it's more modernized.  If that causes you problems, be sure ot keep using HAP instead.
 
 # What's Html Agility Pack (HAP)?
 It is an agile HTML parser that builds a read/write DOM and supports plain XPATH or XSLT (No need to understand XPATH nor XSLT to use it, don't worry...). It is a .NET code library that allows you to parse "out of the web" HTML files. The parser is very tolerant of "real world" malformed HTML. The object model is very similar to what proposes System.Xml, but for HTML documents (or streams).
