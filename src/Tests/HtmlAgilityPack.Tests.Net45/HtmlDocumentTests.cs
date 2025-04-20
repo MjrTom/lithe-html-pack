@@ -1,12 +1,13 @@
 ﻿using System.IO;
 using System.Linq;
 using System.Net;
-using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Threading;
+using NUnit.Framework;
+using Assert = NUnit.Framework.Legacy.ClassicAssert;
 
 namespace HtmlAgilityPack.Tests
 {

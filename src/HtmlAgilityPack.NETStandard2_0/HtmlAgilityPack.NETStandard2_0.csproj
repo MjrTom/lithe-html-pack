@@ -13,12 +13,16 @@
     <RootNamespace>HtmlAgilityPack</RootNamespace>
     <PackageId>HtmlAgilityPack</PackageId>
     <Version>1.12.1</Version>
-    <Authors>ZZZ Projects Inc.</Authors>
+    <Authors>ZZZ Projects Inc., Joseph Bridgewater</Authors>
     <Company>ZZZ Projects Inc.</Company>
-    <Product>Html Agility Pack</Product>
-    <Copyright>Copyright © ZZZ Projects Inc.</Copyright>
+    <Product>Lithe Html Pack</Product>
+    <Copyright>Copyright © ZZZ Projects Inc. 2025 Joseph Bridgewater</Copyright>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>HtmlAgilityPack.snk</AssemblyOriginatorKeyFile>
+    <RepositoryUrl>https://github.com/MjrTom/lithe-html-pack</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest-minimum</AnalysisLevel>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

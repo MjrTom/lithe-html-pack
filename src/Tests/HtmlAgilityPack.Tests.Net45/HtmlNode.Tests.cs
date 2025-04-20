@@ -3,7 +3,13 @@ using System.IO;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
-using Assert = NUnit.Framework.Assert;
+using NUnit.Framework.Legacy;
+using Assert = NUnit.Framework.Legacy.ClassicAssert;
+using TestFixtureAttribute = NUnit.Framework.TestFixtureAttribute;
+using TestAttribute = NUnit.Framework.TestAttribute;
+using TestCaseAttribute = NUnit.Framework.TestAttribute;
+using AreEqual = NUnit.Framework.Legacy.ClassicAssert;
+
 
 namespace HtmlAgilityPack.Tests
 {

@@ -1,5 +1,9 @@
 ﻿using System;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
+using Assert = NUnit.Framework.Legacy.ClassicAssert;
+using HtmlAgilityPack;
+
 
 namespace HtmlAgilityPack.Tests
 {

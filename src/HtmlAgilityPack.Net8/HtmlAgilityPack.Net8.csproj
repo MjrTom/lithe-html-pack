@@ -1,20 +1,28 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
     <AssemblyName>HtmlAgilityPack</AssemblyName>
     <RootNamespace>HtmlAgilityPack</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>HtmlAgilityPack</PackageId>
     <Version>1.12.1</Version>
-    <Authors>ZZZ Projects Inc.</Authors>
+    <Authors>ZZZ Projects Inc., Joseph Bridgewater</Authors>
     <Company>ZZZ Projects Inc.</Company>
-    <Product>Html Agility Pack</Product>
-    <Copyright>Copyright © ZZZ Projects Inc.</Copyright>
+    <Product>Lithe Html Pack</Product>
+    <Copyright>Copyright © ZZZ Projects Inc., 2025 Joseph Bridgewater</Copyright>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>HtmlAgilityPack.snk</AssemblyOriginatorKeyFile>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/MjrTom/lithe-html-pack</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <AnalysisLevel>preview-recommended</AnalysisLevel>
+    <LangVersion>10.0</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -23,6 +31,14 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <DefineConstants>$(DefineConstants);NETSTANDARD2_0;NETSTANDARD</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
   </PropertyGroup>
 
   <Import Project="..\HtmlAgilityPack.Shared\HtmlAgilityPack.Shared.projitems" Label="Shared" />

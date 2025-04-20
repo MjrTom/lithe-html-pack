@@ -1,8 +1,10 @@
-﻿using NUnit.Framework;
-using System;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using System.Xml.XPath;
+using NUnit.Framework;
+using Assert = NUnit.Framework.Legacy.ClassicAssert;
+using TestFixtureAttribute = NUnit.Framework.TestFixtureAttribute;
+using TestAttribute = NUnit.Framework.TestAttribute;
 
 namespace HtmlAgilityPack.Tests
 {
