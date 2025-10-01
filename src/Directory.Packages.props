@@ -14,9 +14,9 @@
     <PackageVersion Include="Microsoft.NETCore.Targets" Version="5.0.0" />
     <PackageVersion Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.14" />
     <PackageVersion Include="Microsoft.Testing.Extensions.Telemetry" Version="1.8.0" />
-    <PackageVersion Include="Microsoft.Testing.Extensions.TrxReport.Abstractions" Version="1.8.0" />
+    <PackageVersion Include="Microsoft.Testing.Extensions.TrxReport.Abstractions" Version="1.9.0" />
     <PackageVersion Include="Microsoft.Testing.Extensions.VSTestBridge" Version="1.8.0" />
-    <PackageVersion Include="Microsoft.Testing.Platform" Version="1.8.0" />
+    <PackageVersion Include="Microsoft.Testing.Platform" Version="1.9.0" />
     <PackageVersion Include="Microsoft.Testing.Platform.MSBuild" Version="1.8.0" />
     <PackageVersion Include="Microsoft.TestPlatform.ObjectModel" Version="17.14.1" />
     <PackageVersion Include="MSTest.Analyzers" Version="3.10.0" />
